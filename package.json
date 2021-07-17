@@ -1,0 +1,72 @@
+{
+  "_from": "git://github.com/mhssamadani/ErgoStratumServer.git",
+  "_id": "stratum-pool@0.1.9",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/stratum-pool",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/mhssamadani/ErgoStratumServer.git",
+    "rawSpec": "git://github.com/mhssamadani/ErgoStratumServer.git",
+    "saveSpec": "git://github.com/mhssamadani/ErgoStratumServer.git",
+    "fetchSpec": "git://github.com/mhssamadani/ErgoStratumServer.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/mhssamadani/ErgoStratumServer.git#a5152db3cf8923ece2bfc86d6eeda4b8375d3b58",
+  "_spec": "git://github.com/mhssamadani/ErgoStratumServer.git",
+  "_where": "/var/git/ergo-nomp",
+  "author": {
+    "name": "Matthew Little"
+  },
+  "bugs": {
+    "url": "https://github.com/zone117x/node-stratum-pool/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "vekexasia"
+    },
+    {
+      "name": "TheSeven"
+    }
+  ],
+  "dependencies": {
+    "async": "*",
+    "base58-native": "*",
+    "bigint-buffer": "^1.1.5",
+    "bignum": "0.13.1",
+    "blake2": "^4.0.2",
+    "json-bigint": "^1.0.0",
+    "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+    "uint64be": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "High performance Stratum poolserver in Node.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/zone117x/node-stratum-pool",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
+  "license": "GPL-2.0",
+  "main": "lib/index.js",
+  "name": "stratum-pool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zone117x/node-stratum-pool.git"
+  },
+  "version": "0.1.9"
+}
