@@ -1,0 +1,42 @@
+{
+    "name": "stratum-pool",
+    "version": "0.1.9",
+    "description": "Tulip Farm stratum server",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "ergo",
+        "defi"
+    ],
+    "homepage": "https://github.com/WinterTFG/stratum-pool",
+    "bugs": {
+        "url": "https://github.com/WinterTFG/stratum-pool/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WinterTFG/stratum-pool"
+    },
+    "dependencies": {
+        "async": "*",
+        "base58-native": "*",
+        "bigint-buffer": "^1.1.5",
+        "bignum": "0.13.1",
+        "blake2": "^4.0.2",
+        "json-bigint": "^1.0.0",
+        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+        "uint64be": "^3.0.0"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
